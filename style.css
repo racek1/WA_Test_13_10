@@ -10,6 +10,24 @@ h1
     text-align: center;
 }
 
+.index 
+{
+    background-color:cyan;
+    font-family:'Segoe UI', Verdana, sans-serif;
+}
+
+.aboutUs
+{
+    background-color:teal;
+    font-family:'Comic Sans MS', Verdana, sans-serif;
+}
+
+.newsletter
+{
+    background-color: mediumseagreen;
+    font-family:Verdana, Tahoma, sans-serif;
+}
+
 .flex div, .grid div
 {
     margin: 10px;
@@ -38,6 +56,36 @@ h1
     display: grid;
     width: 100%;
     grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+.flex div
+{
+    background-color: white;
+}
+
+#kontakt1
+{
+    background-color:cornflowerblue;
+}
+#kontakt2
+{
+    background-color:darkkhaki;
+}
+#kontakt3
+{
+    background-color:tomato;
+}
+#kontakt4
+{
+    background-color:forestgreen;
+}
+#kontakt5
+{
+    background-color:plum;
+}
+#kontakt6
+{
+    background-color:yellow;
 }
 
 @media screen and (max-width: 800px)
